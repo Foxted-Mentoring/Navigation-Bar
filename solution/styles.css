@@ -1,0 +1,31 @@
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+nav ul li {
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    cursor: pointer;
+    background-color: silver;
+}
+
+nav ul li:hover a {
+    color: white;
+}
